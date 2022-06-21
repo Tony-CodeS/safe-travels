@@ -1,0 +1,174 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#intro {
+    /* background-image: url('../2portfolio.jpg'); */
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#text-image{
+    margin-top: -50px;
+}
+#paris{
+    height: 400px;
+    border-radius: 50%;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+#xxx{
+    margin-top: 500px;
+}
+#xyz { 
+    font-weight: bolder;
+    font-size: 80px;
+    color: aliceblue;
+    text-shadow: 5px 4px gray;
+}
+#btn{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: yellow;
+    background: black;
+}
+#img{
+    border-radius: 50%;
+}
+#img-parent{
+    margin-top: 100px;
+}
+#ddd{
+    font-weight: bolder;
+    text-shadow: 3px 3px black;
+}
+
+#empty{
+    height: 350px;
+     visibility: hidden; 
+}
+#borderless{
+    border-radius: 50%;
+}
+#des{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+#sun{
+    margin-top: -200px;
+}
+#top{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#whiteman{
+   border-radius: 50%;
+   height: 100%;
+   object-fit: cover;
+
+}
+.samson{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+}
+
+.fa{
+    text-decoration: none;
+    color: orange;
+    padding: 5px;
+}
+#kris{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#link{
+    line-height: 40px;
+    list-style: none;
+}
+
+#cook{
+    background-color: red;
+    text-align: center;
+    width: 50%;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #xxx {
+      display: none;
+    }
+    #img-parent{
+        display: none;
+    }
+    #xyz{
+        font-weight: bolder;
+        font-size: 60px;
+        color: aliceblue;
+        text-shadow: 5px 4px gray;
+    }
+
+    #empty{
+     display: none;
+    }
+    #borderless{
+        border-radius: 0px;
+        margin-top: 50px;
+        width: 400px;
+        height: 400px;
+    
+    }
+    #des{
+        margin-top: 0px;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    #sun{
+        margin-top: 5px;
+    }
+    #dis{
+        display: none;
+    }
+
+    #off{
+        display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 1500px) {
+     #sun{
+        margin-top: -150px;
+    }  
+  }
+  @media only screen and (max-width: 786px) {
+    #text-image{
+        margin-top: 70px;
+    }
+    #borderless{
+        width: 400px;
+        height: 400px;
+        margin-top: 50px;
+        align-content: center;
+        margin: auto;
+    }
+    #xcxc{
+        padding-left: 0%;
+        margin-left: 0;
+    }
+    #des{
+        font-size: 30px;
+    }
+    #kris{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+  }
